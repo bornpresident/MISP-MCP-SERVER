@@ -169,13 +169,6 @@ Get information about recent MISP feeds.
 7. "Get information about recent MISP feeds"
 8. "Perform an advanced search for TLP:RED events related to banking trojans"
 
-## Security Considerations
-
-- Use a read-only API key if you don't need to submit IoCs
-- Consider network segmentation and proper access controls for your MISP instance
-- Be cautious with self-signed certificates (`MISP_VERIFY_SSL=False`)
-- Review the logs regularly for unauthorized access attempts
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -184,7 +177,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
 
-- [MISP Project](https://github.com/MISP/MISP) for the excellent threat intelligence platform
-- [Model Context Protocol](https://modelcontextprotocol.io) for enabling secure LLM integrations
